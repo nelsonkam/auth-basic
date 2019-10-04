@@ -1,0 +1,4 @@
+### Todo
+
+[] Host on github and retrieve with a cli like degit
+[] Create an interactive command that creates a `.env` from `.env.example`
