@@ -5,7 +5,7 @@ from models import User
 from flask_bcrypt import Bcrypt
 from flask_jwt_extended import create_access_token, create_refresh_token, jwt_refresh_token_required, get_jwt_identity
 
-blueprint = Blueprint('auth', __name__)
+blueprint = Blueprint("auth", __name__, url_prefix="/auth")
 bcrypt = Bcrypt()
 
 @blueprint.route('/login', methods=['POST'])

@@ -1,8 +1,3 @@
-### ADD STAGING REMOTE
-  git remote add dokku-staging dokku@staging.letsjist.com:staging-api
-
-### Add PROD remote
-  git remote add dokku-prod dokku@api.letsjist.com:api
   
 ## ENV VARIABLES
 See `.env.example`
