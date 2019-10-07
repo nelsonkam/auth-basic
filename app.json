@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "description": "An API server",
+  "scripts": {
+    "dokku": {
+      "postdeploy": "bash ./postdeploy.sh"
+    }
+  }
+}
